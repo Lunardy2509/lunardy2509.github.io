@@ -31,14 +31,14 @@ export function About() {
             <div className="space-y-8">
               <div className="space-y-6">
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  I'm a passionate full-stack developer who loves turning complex problems into{" "}
-                  <span className="text-blue-600 font-semibold">simple, beautiful solutions</span>. With expertise in
-                  modern web technologies, I create digital experiences that make a real difference.
+                  I'm a passionate iOS developer currently studying at Apple Developer Academy @BINUS. I love turning
+                  complex problems into simple, beautiful mobile solutions. With expertise in Swift and iOS development,
+                  I create digital experiences that make a real difference in users' daily lives.
                 </p>
 
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects,
-                  or sharing knowledge with the developer community.
+                  When I'm not coding, you'll find me exploring new iOS technologies, contributing to open-source
+                  projects, or sharing knowledge with the developer community.
                 </p>
               </div>
 
@@ -46,9 +46,9 @@ export function About() {
                 <Card className="bg-gradient-to-br from-blue-50 to-blue-100 border-blue-200 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                   <CardContent className="p-8 text-center">
                     <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent mb-2">
-                      10+
+                      2
                     </div>
-                    <div className="text-sm font-medium text-blue-700">Projects Completed</div>
+                    <div className="text-sm font-medium text-blue-700">iOS Projects</div>
                   </CardContent>
                 </Card>
                 <Card className="bg-gradient-to-br from-purple-50 to-purple-100 border-purple-200 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
@@ -56,7 +56,7 @@ export function About() {
                     <div className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent mb-2">
                       3+
                     </div>
-                    <div className="text-sm font-medium text-purple-700">Years Experience</div>
+                    <div className="text-sm font-medium text-purple-700">Months at Academy</div>
                   </CardContent>
                 </Card>
               </div>

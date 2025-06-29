@@ -1,45 +1,38 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { ExternalLink, Github } from "lucide-react"
+import { Github, Smartphone } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
 export function Projects() {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "BSDGo App",
       description:
-        "A full-stack e-commerce solution with user authentication, payment processing, and admin dashboard.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-      liveUrl: "#",
-      githubUrl: "#",
+        "BSDGo is an iOS companion navigation app built to enhance the BSD Link commuting experience by providing real-time shuttle schedules and nearby stops through a fast, widget-ready interface.",
+      image:
+        "./assets/BSDGo_logo.png?height=300&width=500",
+      technologies: ["SwiftUI", "UIKit", "Core Location", "WidgetKit", "MapKit"],
+      appUrl: "https://apps.apple.com/id/app/bsdgo/id6747796706",
+      githubUrl: "https://github.com/Lunardy2509/BSDGo",
       gradient: "from-blue-500 to-purple-500",
     },
     {
-      title: "Task Management App",
+      title: "Ripely App",
       description:
-        "A collaborative task management application with real-time updates and team collaboration features.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-      liveUrl: "#",
-      githubUrl: "#",
+        "Ripely is a CoreML-powered iOS app designed to help Academy Learners identify apple ripeness in real time using image classification.",
+      image:
+        "./assets/Ripely_logo.png?height=300&width=500",
+      technologies: ["UIKit", "AVFoundation", "CreateML", "CoreML", "Vision", "PhotosUI"],
+      appUrl: "https://apps.apple.com/id/app/ripely/id6747796706",
+      githubUrl: "https://github.com/Lunardy2509/Ripely",
       gradient: "from-purple-500 to-pink-500",
-    },
-    {
-      title: "Weather Dashboard",
-      description: "A responsive weather dashboard with location-based forecasts and interactive charts.",
-      image: "/placeholder.svg?height=300&width=500",
-      technologies: ["Vue.js", "Chart.js", "Weather API", "Tailwind CSS"],
-      liveUrl: "#",
-      githubUrl: "#",
-      gradient: "from-green-500 to-teal-500",
     },
   ]
 
   return (
-    <section className="py-24 px-6 bg-white">
+    <section id="projects" className="py-24 px-6 bg-white">
       <div className="container mx-auto">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
@@ -53,11 +46,11 @@ export function Projects() {
               </span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Here are some of my recent projects that showcase my skills and passion for development
+              Here are my recent iOS projects that showcase my skills and passion for mobile development
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {projects.map((project, index) => (
               <Card
                 key={index}
@@ -69,7 +62,7 @@ export function Projects() {
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
                     fill
-                    className="object-cover hover:scale-110 transition-transform duration-700"
+                    className="object-contain max-w-full max-h-full hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-black/20"></div>
                 </div>
@@ -95,9 +88,9 @@ export function Projects() {
                       className="flex-1 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-lg hover:shadow-xl transition-all duration-300"
                       asChild
                     >
-                      <Link href={project.liveUrl}>
-                        <ExternalLink className="h-4 w-4 mr-2" />
-                        Live Demo
+                      <Link href={project.appUrl}>
+                        <Smartphone className="h-4 w-4 mr-2" />
+                        App Store
                       </Link>
                     </Button>
                     <Button

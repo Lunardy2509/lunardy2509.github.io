@@ -4,22 +4,22 @@ import { Badge } from "@/components/ui/badge"
 export function Skills() {
   const skillCategories = [
     {
-      title: "Frontend",
-      skills: ["Swift", "React", "Next.js", "TypeScript", "Tailwind CSS", "HTML", "CSS", "JavaScript"],
+      title: "iOS Development",
+      skills: ["Swift", "SwiftUI", "UIKit", "Xcode"],
       gradient: "from-blue-500 to-cyan-500",
       bgGradient: "from-blue-50 to-cyan-50",
       borderColor: "border-blue-200",
     },
     {
-      title: "Backend",
-      skills: ["Node.js", "Express", "Python", "Django", "Django REST APIs"],
+      title: "Backend & APIs",
+      skills: ["MySQL", "SQLite","REST APIs", "Django", "Node.js", "JSON"],
       gradient: "from-purple-500 to-pink-500",
       bgGradient: "from-purple-50 to-pink-50",
       borderColor: "border-purple-200",
     },
     {
       title: "Tools & Others",
-      skills: ["Git", "AWS", "Figma", "VS Code", "Linux"],
+      skills: ["Git", "GitHub", "Figma", "TestFlight", "App Store Connect"],
       gradient: "from-green-500 to-teal-500",
       bgGradient: "from-green-50 to-teal-50",
       borderColor: "border-green-200",

@@ -1,7 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',
-  // If you had other config (e.g. basePath, experimental), leave them here
+// next.config.js
+module.exports = {
+  output: "export",
+  images: {
+    unoptimized: true,
+  },
 };
-
-module.exports = nextConfig;
