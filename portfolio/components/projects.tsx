@@ -25,7 +25,7 @@ export function Projects() {
       image:
         "./assets/Ripely_logo.png?height=300&width=500",
       technologies: ["UIKit", "AVFoundation", "CreateML", "CoreML", "Vision", "PhotosUI"],
-      appUrl: "https://apps.apple.com/id/app/ripely/id6747796706",
+      appUrl: "https://apps.apple.com/id/app/ripely/id6747743774",
       githubUrl: "https://github.com/Lunardy2509/Ripely",
       gradient: "from-purple-500 to-pink-500",
     },
