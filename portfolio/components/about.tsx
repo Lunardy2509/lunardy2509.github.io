@@ -1,69 +1,72 @@
-import { Card, CardContent } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+// File: components/about.tsx
+'use client';
+import React from 'react';
+import { Smartphone, Code, Zap } from 'lucide-react';
+import { useScrollAnimation } from '../lib/utils';
 
-export function About() {
+export default function About() {
+  const visibleElements = useScrollAnimation();
+
   return (
-    <section className="py-24 px-6 relative bg-white">
-      <div className="container mx-auto">
-        <div className="max-w-6xl mx-auto">
+    <section id="about" className="py-20 bg-white">
+      <div className="max-w-6xl mx-auto px-6">
+        <div 
+          id="about-content" 
+          data-animate
+          className={`transition-all duration-1000 ${
+            visibleElements.has('about-content') ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+          }`}
+        >
           <div className="text-center mb-16">
-            <Badge variant="outline" className="mb-4 px-4 py-2 text-sm font-medium border-blue-200 text-blue-700">
+            <div className="inline-block px-4 py-2 bg-blue-100 text-blue-600 rounded-full text-sm font-medium mb-8">
               About Me
-            </Badge>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Passionate about creating{" "}
-              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            </div>
+            <h2 className="text-4xl md:text-5xl font-light text-gray-800 mb-4">
+              Passionate about creating{' '}
+              <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-medium">
                 digital magic
               </span>
             </h2>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="relative">
-              <div className="w-full h-96 bg-gradient-to-br from-blue-100 via-purple-50 to-pink-100 rounded-3xl flex items-center justify-center relative overflow-hidden shadow-2xl border border-gray-100">
-                <div className="absolute inset-0 bg-gradient-to-br from-blue-400/10 to-purple-400/10"></div>
-                <div className="text-8xl relative z-10">👨‍💻</div>
-                <div className="absolute top-4 right-4 w-20 h-20 bg-gradient-to-br from-blue-400/20 to-purple-400/20 rounded-full blur-xl"></div>
-                <div className="absolute bottom-4 left-4 w-16 h-16 bg-gradient-to-br from-pink-400/20 to-blue-400/20 rounded-full blur-xl"></div>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="bg-white rounded-3xl p-8 shadow-xl border border-gray-200">
+              <div className="flex items-center justify-center w-full bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl overflow-hidden">
+                <img 
+                  src="/assets/Ferdinand-Lunardy.png" 
+                  alt="Ferdinand Lunardy" 
+                  className="w-full h-full object-contain rounded-2xl shadow-lg"
+                />
               </div>
             </div>
 
-            <div className="space-y-8">
-              <div className="space-y-6">
-                <p className="text-xl text-gray-600 leading-relaxed">
-                  I'm a passionate iOS developer currently studying at Apple Developer Academy @BINUS. I love turning
-                  complex problems into simple, beautiful mobile solutions. With expertise in Swift and iOS development,
-                  I create digital experiences that make a real difference in users' daily lives.
-                </p>
+            <div className="space-y-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
+                I'm a passionate iOS developer currently studying at Apple Developer Academy @BINUS. I love turning complex problems into simple, beautiful mobile solutions. With expertise in Swift and iOS development, I create digital experiences that make a real difference in users' daily lives.
+              </p>
 
-                <p className="text-xl text-gray-600 leading-relaxed">
-                  When I'm not coding, you'll find me exploring new iOS technologies, contributing to open-source
-                  projects, or sharing knowledge with the developer community.
-                </p>
-              </div>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                When I'm not coding, you'll find me exploring new iOS technologies, contributing to open-source projects, or sharing knowledge with the developer community.
+              </p>
 
-              <div className="grid grid-cols-2 gap-6">
-                <Card className="bg-gradient-to-br from-blue-50 to-blue-100 border-blue-200 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                  <CardContent className="p-8 text-center">
-                    <div className="text-4xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent mb-2">
-                      2
-                    </div>
-                    <div className="text-sm font-medium text-blue-700">iOS Projects</div>
-                  </CardContent>
-                </Card>
-                <Card className="bg-gradient-to-br from-purple-50 to-purple-100 border-purple-200 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-                  <CardContent className="p-8 text-center">
-                    <div className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-purple-800 bg-clip-text text-transparent mb-2">
-                      3+
-                    </div>
-                    <div className="text-sm font-medium text-purple-700">Months at Academy</div>
-                  </CardContent>
-                </Card>
+              <div className="flex flex-wrap gap-4 pt-6">
+                <div className="flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                  <Smartphone className="w-5 h-5 text-blue-600 mr-2" />
+                  <span className="text-blue-700 font-medium">iOS Development</span>
+                </div>
+                <div className="flex items-center bg-purple-50 px-4 py-2 rounded-full">
+                  <Code className="w-5 h-5 text-purple-600 mr-2" />
+                  <span className="text-purple-700 font-medium">Swift & SwiftUI</span>
+                </div>
+                {/* <div className="flex items-center bg-indigo-50 px-4 py-2 rounded-full">
+                  <Zap className="w-5 h-5 text-indigo-600 mr-2" />
+                  <span className="text-indigo-700 font-medium">UI/UX Design</span>
+                </div> */}
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
