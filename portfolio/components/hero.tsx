@@ -44,9 +44,9 @@ const TypingAnimation = ({ texts, className = "" }: { texts: string[], className
 export default function Hero({ onScroll }: { onScroll: () => void }) {
   return (
     <section id="home" className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 pt-16">
-      <div className="flex flex-col items-center justify-center min-h-screen px-8">
-        <div className="text-center max-w-4xl mx-auto">
-          <h1 className="text-6xl md:text-8xl font-semibold text-gray-800 mb-6">
+      <div className="flex flex-col items-center justify-center min-h-screen px-6 sm:px-8">
+        <div className="text-center max-w-3xl mx-auto">
+          <h1 className="text-[clamp(2.5rem,10vw,5rem)] font-semibold text-gray-800 mb-6 leading-tight">
             Hi, I'm{' '}
             <TypingAnimation 
               texts={['Ferdinand Lunardy', 'an iOS Developer']} 
@@ -54,28 +54,31 @@ export default function Hero({ onScroll }: { onScroll: () => void }) {
             />
           </h1>
 
-          <div className="flex justify-center space-x-8 mb-16">
-            <a href="#" className="p-4 rounded-full bg-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group">
-              <Github className="w-6 h-6 text-gray-700 group-hover:text-blue-600 transition-colors" />
+          {/* Social Icons */}
+          <div className="flex flex-wrap justify-center gap-6 mb-12 sm:mb-16">
+            <a href="#" className="p-4 rounded-full bg-white shadow-md hover:shadow-xl transition hover:scale-110 group">
+              <Github className="w-6 h-6 text-gray-700 group-hover:text-blue-600" />
             </a>
-            <a href="#" className="p-4 rounded-full bg-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group">
-              <Linkedin className="w-6 h-6 text-gray-700 group-hover:text-blue-600 transition-colors" />
+            <a href="#" className="p-4 rounded-full bg-white shadow-md hover:shadow-xl transition hover:scale-110 group">
+              <Linkedin className="w-6 h-6 text-gray-700 group-hover:text-blue-600" />
             </a>
-            <a href="#" className="p-4 rounded-full bg-white shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110 group">
-              <Mail className="w-6 h-6 text-gray-700 group-hover:text-blue-600 transition-colors" />
+            <a href="#" className="p-4 rounded-full bg-white shadow-md hover:shadow-xl transition hover:scale-110 group">
+              <Mail className="w-6 h-6 text-gray-700 group-hover:text-blue-600" />
             </a>
           </div>
 
+          {/* CTA Button */}
           <button 
             onClick={onScroll}
-            className="group inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-300 hover:scale-105 hover:shadow-lg"
+            className="group inline-flex items-center px-6 py-3 sm:px-8 sm:py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-full font-medium hover:from-blue-700 hover:to-purple-700 transition hover:scale-105 hover:shadow-lg"
           >
             Explore My Work
             <ChevronRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
         </div>
 
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+        {/* Down Arrow */}
+        <div className="absolute bottom-6 sm:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
           <ArrowDown className="w-6 h-6 text-gray-400" />
         </div>
       </div>
