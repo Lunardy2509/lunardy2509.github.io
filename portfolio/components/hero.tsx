@@ -56,13 +56,13 @@ export default function Hero({ onScroll }: { onScroll: () => void }) {
 
           {/* Social Icons */}
           <div className="flex flex-wrap justify-center gap-6 mb-12 sm:mb-16">
-            <a href="#" className="p-4 rounded-full bg-white shadow-md hover:shadow-xl transition hover:scale-110 group">
+            <a href="https://github.com/Lunardy2509" className="p-4 rounded-full bg-white shadow-md hover:shadow-xl transition hover:scale-110 group">
               <Github className="w-6 h-6 text-gray-700 group-hover:text-blue-600" />
             </a>
-            <a href="#" className="p-4 rounded-full bg-white shadow-md hover:shadow-xl transition hover:scale-110 group">
+            <a href="https://www.linkedin.com/in/ferdinandlunardy/" className="p-4 rounded-full bg-white shadow-md hover:shadow-xl transition hover:scale-110 group">
               <Linkedin className="w-6 h-6 text-gray-700 group-hover:text-blue-600" />
             </a>
-            <a href="#" className="p-4 rounded-full bg-white shadow-md hover:shadow-xl transition hover:scale-110 group">
+            <a href="mailto:ferdinandlunardy@gmail.com" className="p-4 rounded-full bg-white shadow-md hover:shadow-xl transition hover:scale-110 group">
               <Mail className="w-6 h-6 text-gray-700 group-hover:text-blue-600" />
             </a>
           </div>
