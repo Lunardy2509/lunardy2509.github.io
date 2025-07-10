@@ -1,7 +1,7 @@
 // File: components/about.tsx
 'use client';
 import React from 'react';
-import { Smartphone, Code, Zap } from 'lucide-react';
+import { Smartphone, Code, Globe } from 'lucide-react';
 import { useScrollAnimation } from '../lib/utils';
 
 export default function About() {
@@ -22,9 +22,9 @@ export default function About() {
               About Me
             </div>
             <h2 className="text-4xl md:text-5xl font-light text-gray-800 mb-4">
-              Passionate about creating{' '}
+              Passionate about building seamless{' '}
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-medium">
-                digital magic
+                iOS experiences
               </span>
             </h2>
           </div>
@@ -42,11 +42,15 @@ export default function About() {
 
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                I'm a passionate iOS developer currently studying at Apple Developer Academy @BINUS. I love turning complex problems into simple, beautiful mobile solutions. With expertise in Swift and iOS development, I create digital experiences that make a real difference in users' daily lives.
+                I'm a passionate junior iOS developer currently enrolled at the Apple Developer Academy @BINUS. With a degree in Computer Engineering, I bring a solid foundation in hardware systems that complements my growing expertise in software development. My curiosity drives me to constantly explore emerging technologies and frameworks, especially within the Apple ecosystem.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed">
-                When I'm not coding, you'll find me exploring new iOS technologies, contributing to open-source projects, or sharing knowledge with the developer community.
+                With growing expertise in Swift and iOS development, I enjoy crafting elegant, user-centric experiences that align with Apple’s ecosystem principles.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Beyond my core projects, you'll often find me experimenting with the latest iOS innovations, working on side projects to sharpen my skills, or actively contributing to the developer community through knowledge sharing and collaboration.
               </p>
 
               <div className="flex flex-wrap gap-4 pt-6">
@@ -56,12 +60,12 @@ export default function About() {
                 </div>
                 <div className="flex items-center bg-purple-50 px-4 py-2 rounded-full">
                   <Code className="w-5 h-5 text-purple-600 mr-2" />
-                  <span className="text-purple-700 font-medium">Swift & SwiftUI</span>
+                  <span className="text-purple-700 font-medium">Swift</span>
                 </div>
-                {/* <div className="flex items-center bg-indigo-50 px-4 py-2 rounded-full">
-                  <Zap className="w-5 h-5 text-indigo-600 mr-2" />
-                  <span className="text-indigo-700 font-medium">UI/UX Design</span>
-                </div> */}
+                <div className="flex items-center bg-indigo-50 px-4 py-2 rounded-full">
+                  <Globe className="w-5 h-5 text-indigo-600 mr-2" />
+                  <span className="text-indigo-700 font-medium">Apple Ecosystem</span>
+                </div>
               </div>
             </div>
           </div>
