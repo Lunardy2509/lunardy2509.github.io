@@ -1,7 +1,7 @@
 // File: components/hero.tsx
 "use client";
 import React, { useState, useEffect } from "react";
-import { Github, Linkedin, Mail, ChevronRight, ArrowDown } from "lucide-react";
+import { Github, Linkedin, Mail, ChevronRight } from "lucide-react";
 
 const TypingAnimation = ({
   texts,
@@ -54,12 +54,12 @@ export default function Hero({ onScroll }: { onScroll: () => void }) {
       className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 pt-16"
     >
       <div className="flex flex-col items-center justify-center min-h-screen px-6 sm:px-8">
-        <div className="text-center max-w2xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-semibold text-gray-800 mb-6 leading-tight">
+        <div className="text-center max-w2xl mx-auto overflow-visible">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-semibold text-gray-800 mb-10 leading-normal">
             <span className="block">Hi, I'm</span>
             <TypingAnimation
-              texts={["Ferdinand Lunardy", "an iOS Developer"]}
-              className="block bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent font-medium mt-2"
+              texts={["an iOS Developer", "a Computer Engineer"]}
+              className="block bg-gradient-to-r from-blue-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent font-medium mt-2 pb-2"
             />
           </h1>
 
