@@ -351,7 +351,6 @@ export default function Projects() {
                 isDetailClosing ? "animate-pop-out" : "animate-pop-in"
               }`}
             >
-              {/* Close Button */}
               <button
                 onClick={() => {
                   setIsDetailClosing(true);
@@ -367,7 +366,6 @@ export default function Projects() {
                 <X className="w-6 h-6" />
               </button>
 
-              {/* Scrollable Content */}
               <div className="p-6 overflow-y-auto pr-4 space-y-6">
                 <h3 className="text-2xl font-bold text-gray-800">
                   {selectedProject.title}
