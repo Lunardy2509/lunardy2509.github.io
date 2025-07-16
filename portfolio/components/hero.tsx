@@ -72,7 +72,7 @@ export default function Hero({ onScroll }: { onScroll: () => void }) {
               <Github className="w-6 h-6 text-gray-700 group-hover:text-blue-600" />
             </a>
             <a
-              href="https://www.linkedin.com/in/ferdinandlunardy/"
+              href="https://www.linkedin.com/in/ferdinand-lunardy-503648219/"
               className="p-4 rounded-full bg-white shadow-md hover:shadow-xl transition hover:scale-110 group"
             >
               <Linkedin className="w-6 h-6 text-gray-700 group-hover:text-blue-600" />
