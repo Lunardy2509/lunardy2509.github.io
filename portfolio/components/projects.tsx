@@ -217,11 +217,7 @@ export default function Projects() {
               <div
                 id={`project-${project.id}`}
                 data-animate
-                className={`bg-white rounded-3xl overflow-hidden shadow-xl border border-gray-200 hover:shadow-2xl transition-all duration-500 hover:scale-105 ${
-                  visibleElements.has(`project-${project.id}`)
-                    ? "opacity-100 translate-y-0"
-                    : "opacity-0 translate-y-8"
-                }`}
+                className={`bg-white rounded-3xl overflow-hidden shadow-xl border border-gray-200 hover:shadow-2xl transition-all duration-500 hover:scale-105 flex flex-col justify-between h-full min-h-[530px]`}
                 style={{ transitionDelay: `${index * 200}ms` }}
               >
                 <div className="relative flex items-center justify-center w-full h-64 rounded-2xl overflow-hidden bg-gradient-to-br from-blue-400 via-indigo-500 to-purple-600 shadow-inner">
@@ -236,7 +232,7 @@ export default function Projects() {
                   />
                 </div>
 
-                <div className="p-6 min-h-[390x]">
+                <div className="p-6 min-h-[390px] flex flex-col justify-between h-full">
                   <h3 className="text-xl font-semibold text-gray-800 mb-3">
                     {project.title}
                   </h3>
@@ -255,7 +251,7 @@ export default function Projects() {
                     ))}
                   </div>
 
-                  <div className="flex flex-wrap gap-2">
+                  <div className="flex flex-wrap gap-2 mt-auto pt-4">
                     <button
                       onClick={() => {
                         setSelectedProject(project);
