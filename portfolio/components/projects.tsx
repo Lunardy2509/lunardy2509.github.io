@@ -57,7 +57,7 @@ const projects = [
     previewImg: "#",
     previewImg2: "#",
     technologies: ["SwiftUI", "Foundation"],
-    github: "#",
+    github: "https://github.com/Lunardy2509/Logic-Lab-Circuit",
     appStore: "#",
     videoDemo: "#",
   },
