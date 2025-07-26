@@ -615,17 +615,14 @@ video {
 .max-h-\[90vh\] {
   max-height: 90vh;
 }
-.min-h-\[390x\] {
-  min-height: 390x;
-}
-.min-h-screen {
-  min-height: 100vh;
-}
 .min-h-\[390px\] {
   min-height: 390px;
 }
 .min-h-\[530px\] {
   min-height: 530px;
+}
+.min-h-screen {
+  min-height: 100vh;
 }
 .w-4 {
   width: 1rem;
@@ -983,11 +980,11 @@ video {
 .pt-16 {
   padding-top: 4rem;
 }
-.pt-6 {
-  padding-top: 1.5rem;
-}
 .pt-4 {
   padding-top: 1rem;
+}
+.pt-6 {
+  padding-top: 1.5rem;
 }
 .text-left {
   text-align: left;

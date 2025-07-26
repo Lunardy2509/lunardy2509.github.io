@@ -54,8 +54,8 @@ const projects = [
     contribution:
       "As the solo developer of Logic Lab Circuit, I’m building a Swift-based circuit simulation tool to make electronics more accessible and interactive for learners. Still in development, the app allows users to virtually build and test logic circuits in a sandbox-style interface. This project reflects my initiative in creating a meaningful educational platform by combining my passion for electronics with software development using SwiftUI and real-time logic processing logic structures.",
     image: "/assets/LLC-App-Icon.png",
-    previewImg: "#",
-    previewImg2: "#",
+    previewImg: "/assets/preview/LLC-1.png",
+    previewImg2: "/assets/preview/LLC-2.png",
     technologies: ["SwiftUI", "Foundation"],
     github: "https://github.com/Lunardy2509/Logic-Lab-Circuit",
     appStore: "#",
