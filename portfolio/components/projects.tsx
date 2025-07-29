@@ -35,6 +35,7 @@ const projects = [
     technologies: [
       "SwiftUI",
       "UIKit",
+      "MVVM Architecture",
       "Foundation",
       "CoreML",
       "Vision",
@@ -50,13 +51,13 @@ const projects = [
     id: 3,
     title: "Logic Lab Circuit",
     description:
-      "[Side Project - Still Under Development] Logic Lab Circuit is an innovative platform designed to facilitate the learning and experimentation of electronic circuits in Swift platform. It provides a virtual environment where users can build, simulate, and test their circuit designs before implementing them in the real world.",
+      "[Side Project – In Progress] Logic Lab Circuit is a Swift-based iOS application designed to help early computer engineering learners visualize and understand the core principles of digital logic. Focused on interactive education, this app simulates how fundamental logic gates (AND, OR, NOT, XOR) operate in real time, guiding users through the thought process and how digital systems perform binary operations such as addition (Full Adder Circuit) and subtraction (Full Subtractor Circuit), with multiplication and division modules coming soon.",
     contribution:
-      "As the solo developer of Logic Lab Circuit, I’m building a Swift-based circuit simulation tool to make electronics more accessible and interactive for learners. Still in development, the app allows users to virtually build and test logic circuits in a sandbox-style interface. This project reflects my initiative in creating a meaningful educational platform by combining my passion for electronics with software development using SwiftUI and real-time logic processing logic structures.",
+      "As the solo developer, I created Logic Lab Circuit to bridge the gap between abstract Boolean theory and hands-on circuit intuition. By using SwiftUI to build a sandbox-style simulation tool, learners can toggle inputs and observe how binary logic flows through real circuit structures like Full Adders and Subtractors. This project is still under active development and currently undergoing concept testing with fellow Apple Developer Academy learners to refine the UX and expand its pedagogical value.",
     image: "/assets/LLC-App-Icon.png",
     previewImg: "/assets/preview/LLC-1.jpeg",
     previewImg2: "/assets/preview/LLC-2.jpeg",
-    technologies: ["SwiftUI", "Foundation"],
+    technologies: ["SwiftUI", "Foundation", "MVVM Architecture"],
     github: "https://github.com/Lunardy2509/Logic-Lab-Circuit",
     appStore: "#",
     videoDemo: "#",
