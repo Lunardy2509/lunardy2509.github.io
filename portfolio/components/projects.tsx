@@ -64,6 +64,21 @@ const projects = [
   },
   {
     id: 4,
+    title: "Industrial Challenge - Proof of Concept",
+    description:
+      "The primary objective of this project was to ideate, design, and prototype an iOS solution that addresses key user pain points and business needs in navigation within the Female Daily platform. Through agile, one-month sprint cycles, we moved rapidly from early concept sketches to High-Fidelity UI prototypes and a functional iOS app prototype. Not for production, but as a proof of concept to demonstrate our design thinking and technical capabilities. No App Store link available.",
+    contribution:
+      "As the Product Manager Tech, my team and I created the iOS app prototype, focusing on user-centered design principles to enhance navigation and other key features. I collaborated closely with stakeholders to gather user and business needs, iterated on designs based on user feedback, and implemented the final prototype using SwiftUI.",
+    image: "/assets/PoC-Industrial-Challenge-FD-Logo.png",
+    previewImg: "/assets/preview/FD-1.png",
+    previewImg2: "/assets/preview/FD-2.jpeg",
+    technologies: ["SwiftUI", "GeoJSON", "CoreLocation", "MapKit", "CoreData", "Foundation", "MVVM Architecture"],
+    github: "https://github.com/Lunardy2509/C8S2-Apple-Developer-Academy-Industrial-Partnership",
+    appStore: "#",
+    videoDemo: "#",
+  },
+  {
+    id: 5,
     title: "IoT Container Tracking",
     description:
       "This repository contains the source files for a thesis project focused on developing an IoT-powered smart container tracking system. The system is designed for a logistics company named Tanto and aims to monitor container conditions (e.g., location, temperature, and vibrations) in real time while in transit.",
@@ -87,7 +102,7 @@ const projects = [
     videoDemo: "#",
   },
   {
-    id: 5,
+    id: 6,
     title: "SCARA 5 DOF Robot Arm",
     description:
       "This repository contains an Arduino-based SCARA (Selective Compliance Assembly Robot Arm) with 5 Degrees of Freedom, designed for educational and competitive use. Built from open-source resources, this project has been used as a prototype for: Introduce students to robotic kinematics, control, and mechatronics, and Provide a low-cost platform for learning automation and vision-guided tasks.",
@@ -102,7 +117,7 @@ const projects = [
     videoDemo: "#",
   },
   {
-    id: 6,
+    id: 7,
     title: "IoT Power Meter",
     description:
       "This project is an IoT-enabled ammeter to measure power and temperature monitoring system using ESP8266, implemented in a school environment in Depok, West Java, Indonesia. It aims to monitor energy usage in various electronic devices by sending real-time data to a dashboard from over 60+ ESP8266 nodes installed in classrooms.",
@@ -117,7 +132,7 @@ const projects = [
     videoDemo: "/assets/preview/IoT-Power-Meter-Demo.mp4",
   },
   {
-    id: 7,
+    id: 8,
     title: "Arduino Multimeter",
     description:
       "This is an open-source Arduino project designed to function as a custom multimeter capable of measuring DC and AC current (up to 5A) for solar PV systems. Developed under the PKM MAN IC initiative, this project supports solar education by enabling students to monitor real-time voltage, current, and power (watts) in small-scale solar setups.",
@@ -132,7 +147,7 @@ const projects = [
     videoDemo: "/assets/preview/arduino-multimeter-Demo.mp4",
   },
   {
-    id: 8,
+    id: 9,
     title: "Arduino Robot Arm",
     description:
       "This is a microcontroller project built to control a 3-DoF robotic arm using Arduino.The arm can be controlled manually via joystick (HW-504) and supports a record & playback feature using a potentiometer.",
@@ -237,7 +252,7 @@ export default function Projects() {
                   <h3 className="text-xl font-semibold text-gray-800 mb-3">
                     {project.title}
                   </h3>
-                  <p className="text-gray-600 mb-4 leading-relaxed line-clamp-4">
+                  <p className="text-gray-600 mb-4 leading-relaxed line-clamp-4 text-justify">
                     {project.description}
                   </p>
 
@@ -372,7 +387,7 @@ export default function Projects() {
                   <h2 className="text-1xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-medium">
                     Description
                   </h2>
-                  <p className="text-gray-700 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed text-justify">
                     {selectedProject.description}
                   </p>
                 </div>
@@ -381,7 +396,7 @@ export default function Projects() {
                   <h2 className="text-1xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent font-medium">
                     Contribution
                   </h2>
-                  <p className="text-gray-700 leading-relaxed">
+                  <p className="text-gray-700 leading-relaxed text-justify">
                     {selectedProject.contribution}
                   </p>
                 </div>

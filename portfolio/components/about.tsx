@@ -43,7 +43,7 @@ export default function About() {
             </div>
 
             <div className="space-y-6">
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-gray-700 leading-relaxed text-justify">
                 I’m a junior iOS developer and Computer Engineering graduate
                 with a strong foundation in embedded systems and hands-on
                 hardware development. Currently enrolled at the Apple Developer
@@ -52,7 +52,7 @@ export default function About() {
                 intersection between physical computing and software design.
               </p>
 
-              <p className="text-lg text-gray-700 leading-relaxed">
+              <p className="text-lg text-gray-700 leading-relaxed text-justify">
                 My experiences span from microcontroller-based prototypes to
                 real-time iOS solutions, driven by a deep curiosity to bridge
                 hardware and software into seamless, intelligent systems. I
