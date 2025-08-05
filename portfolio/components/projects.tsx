@@ -59,7 +59,7 @@ const projects = [
     previewImg2: "/assets/preview/LLC-2.jpeg",
     technologies: ["SwiftUI", "Foundation", "MVVM Architecture"],
     github: "https://github.com/Lunardy2509/Logic-Lab-Circuit",
-    appStore: "#",
+    appStore: "https://apps.apple.com/id/app/logiclabcircuit/id6749439491",
     videoDemo: "#",
   },
   {
