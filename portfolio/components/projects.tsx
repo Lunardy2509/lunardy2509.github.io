@@ -101,7 +101,7 @@ const projects = [
     ],
     github: "https://github.com/Lunardy2509/C8S2-Apple-Developer-Academy-Industrial-Partnership",
     appStore: "#",
-    videoDemo: "#",
+    videoDemo: "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/SIG-IPC-Solution-Demo.mov",
   },
   {
     id: 4,
@@ -129,7 +129,7 @@ const projects = [
     ],
     github: "https://github.com/Lunardy2509/C8S2-ISC-CocoLemon",
     appStore: "#",
-    videoDemo: "#",
+    videoDemo: "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/CocoLemon-Video-Demo.MP4",
   },
   {
     id: 5,
@@ -192,7 +192,7 @@ const projects = [
     ],
     github: "https://github.com/Lunardy2509/IoT-Power-Meter",
     appStore: "#",
-    videoDemo: "/assets/preview/IoT-Power-Meter-Demo.mp4",
+    videoDemo: "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/IoT-Power-Meter-Demo.mp4",
   },
   {
     id: 8,
@@ -211,7 +211,7 @@ const projects = [
     ],
     github: "https://github.com/Lunardy2509/arduino_multimeter",
     appStore: "#",
-    videoDemo: "/assets/preview/arduino-multimeter-Demo.mp4",
+    videoDemo: "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/arduino-multimeter-Demo.mp4",
   },
   {
     id: 9,
@@ -226,7 +226,7 @@ const projects = [
     technologies: ["Servo"],
     github: "https://github.com/Lunardy2509/arduino_robot_arm",
     appStore: "#",
-    videoDemo: "/assets/preview/arduino-robot-arm-Demo.mp4",
+    videoDemo: "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/arduino-robot-arm-Demo.mp4",
   },
 ];
 
