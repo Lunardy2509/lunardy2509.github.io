@@ -64,15 +64,15 @@ const projects = [
     description:
       "[Side Project] Logic Lab Circuit is an interactive iOS application, now available on the App Store, designed to help early computer engineering learners visualize and understand the core principles of digital logic. The app provides real-time simulations of fundamental logic gates (AND, OR, NOT, XOR) and demonstrates how they combine to perform binary operations in circuits like the Full Adder and Full Subtractor. Future updates will introduce multiplication and division modules to further enhance the learning experience.",
     contribution:
-      " As the solo developer, I created Logic Lab Circuit to bridge the gap between abstract Boolean theory and hands-on circuit intuition. Using SwiftUI, I built a sandbox-style simulation where learners can toggle inputs and observe how binary logic flows through circuits. I managed the entire development lifecycle, from initial concept and UX design to implementation and testing, culminating in the successful launch on the App Store.",
+      "As the solo developer, I created Logic Lab Circuit to bridge the gap between abstract Boolean theory and hands-on circuit intuition. Using SwiftUI, I built a sandbox-style simulation where learners can toggle inputs and observe how binary logic flows through circuits. I managed the entire development lifecycle, from initial concept and UX design to implementation and testing, culminating in the successful launch on the App Store.",
     image: "/assets/LLC-App-Icon.png",
     previewImg: "/assets/preview/LLC-1.jpeg",
     previewImg2: "/assets/preview/LLC-2.jpeg",
     technologies: [
       "SwiftUI",
+      "TCA Architecture",
       "Combine",
-      "Foundation", 
-      "MVVM Architecture"
+      "Foundation"
     ],
     github: "https://github.com/Lunardy2509/Logic-Lab-Circuit",
     appStore: "https://apps.apple.com/id/app/logiclabcircuit/id6749439491",
