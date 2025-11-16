@@ -66,7 +66,7 @@ const projects = [
     contribution:
       "As the solo developer, I created Logic Lab Circuit to bridge the gap between abstract Boolean theory and hands-on circuit intuition. Using SwiftUI, I built a sandbox-style simulation where learners can toggle inputs and observe how binary logic flows through circuits. I managed the entire development lifecycle, from initial concept and UX design to implementation and testing, culminating in the successful launch on the App Store.",
     image: "/assets/LLC-App-Icon.png",
-    previewImg: "/assets/preview/LLC-1.jpeg",
+    previewImg: "/assets/preview/LLC-1g.jpeg",
     previewImg2: "/assets/preview/LLC-2.jpeg",
     technologies: [
       "SwiftUI",
@@ -163,7 +163,7 @@ const projects = [
     contribution:
       "As a Research Assistant in the Mechanical and Installation Division, I worked on the SCARA 5 DOF Robot Arm project, focusing on its mechanical assembly and hardware configuration. The Arduino-based robot arm was designed for educational and prototyping purposes to teach robotic motion and automation. I helped set up the servo and stepper motor system using libraries like AccelStepper, and contributed to refining the control logic for smooth arm articulation—paving the way for affordable robotics education tools.",
     image: "/assets/SCARA-5-DOF-Robot-Arm.png",
-    previewImg: "/assets/preview/SCARA-5-DOF-1.jpg",
+    previewImg: "/assets/preview/SCARA-5-DOF-1.jpeg",
     previewImg2: "/assets/preview/SCARA-5-DOF-2.jpeg",
     technologies: [
       "Servo", 
