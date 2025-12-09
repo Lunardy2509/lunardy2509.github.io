@@ -18,15 +18,15 @@ const projects = [
     previewImg: "/assets/preview/BSDGo-1.png",
     previewImg2: "/assets/preview/BSDGo-2.png",
     technologies: [
-      "SwiftUI", 
-      "UIKit", 
+      "SwiftUI",
+      "UIKit",
       "MVVM Architecture",
-      "CoreLocation", 
-      "MapKit", 
+      "CoreLocation",
+      "MapKit",
       "WidgetKit",
       "Foundation",
       "SwiftLint",
-      "Jira"
+      "Jira",
     ],
     github: "https://github.com/Lunardy2509/BSDGo",
     appStore: "https://apps.apple.com/id/app/bsdgo/id6747796706",
@@ -52,7 +52,7 @@ const projects = [
       "AVFoundation",
       "Foundation",
       "SwiftLint",
-      "TOCropViewController"
+      "TOCropViewController",
     ],
     github: "https://github.com/Lunardy2509/Ripely",
     appStore: "https://apps.apple.com/id/app/ripely/id6747743774",
@@ -68,12 +68,7 @@ const projects = [
     image: "/assets/LLC-App-Icon.png",
     previewImg: "/assets/preview/LLC-1.jpeg",
     previewImg2: "/assets/preview/LLC-2.jpeg",
-    technologies: [
-      "SwiftUI",
-      "TCA Architecture",
-      "Combine",
-      "Foundation"
-    ],
+    technologies: ["SwiftUI", "TCA Architecture", "Combine", "Foundation"],
     github: "https://github.com/Lunardy2509/Logic-Lab-Circuit",
     appStore: "https://apps.apple.com/id/app/logiclabcircuit/id6749439491",
     videoDemo: "#",
@@ -89,19 +84,21 @@ const projects = [
     previewImg: "/assets/preview/FD-1.png",
     previewImg2: "/assets/preview/FD-2.jpeg",
     technologies: [
-      "SwiftUI", 
+      "SwiftUI",
       "MVVM Architecture",
-      "GeoJSON", 
-      "CoreLocation", 
-      "MapKit", 
-      "CoreData", 
+      "GeoJSON",
+      "CoreLocation",
+      "MapKit",
+      "CoreData",
       "Combine",
       "Foundation",
-      "Jira"
+      "Jira",
     ],
-    github: "https://github.com/Lunardy2509/C8S2-Apple-Developer-Academy-Industrial-Partnership",
+    github:
+      "https://github.com/Lunardy2509/C8S2-Apple-Developer-Academy-Industrial-Partnership",
     appStore: "#",
-    videoDemo: "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/SIG-IPC-Solution-Demo.mov",
+    videoDemo:
+      "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/SIG-IPC-Solution-Demo.mov",
   },
   {
     id: 4,
@@ -120,22 +117,23 @@ const projects = [
       "Combine",
       "CoreData",
       "CloudKit",
-      "UIHostingController", 
+      "UIHostingController",
       "MVC Architecture",
       "Foundation",
       "Swift Testing",
       "SwiftLint",
-      "Jira"
+      "Jira",
     ],
     github: "https://github.com/Lunardy2509/C8S2-ISC-CocoLemon",
     appStore: "#",
-    videoDemo: "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/CocoLemon-Video-Demo.MP4",
+    videoDemo:
+      "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/CocoLemon-Video-Demo.MP4",
   },
   {
     id: 4,
     title: "Kimo",
     description:
-      "[Final Project] Kimo is an interactive iPadOS application that helps parents and children explore their feelings together through storytelling and play. Addressing the lack of meaningful parent-child interaction in existing media, Kimo serves as a structured tool for nurturing emotional intelligence in children aged 3-5 utilizing RULER Framework from Yale Center SEL (Social Emotional Learning) Specialists.",
+      "[Final Project] Kimo is an interactive iPadOS application that helps parents and children explore their feelings together through storytelling and play. Addressing the lack of meaningful parent-child interaction in existing media, Kimo serves as a structured tool for nurturing emotional intelligence in children aged 3-5 utilizing RULER Framework from Yale Center SEL (Social Emotional Learning) Specialists. The app features immersive story modules, breathing exercises, and creative play activities designed to foster empathy and quality time between parents and children. To ensure inclusivity, Kimo was implemented a robust localization architecture, enabling a fully native experience in English, Indonesian, and Chinese (Traditional & Simplified).",
     contribution:
       "As a Product Designer and iOS Developer for Kimo, I engineered an interactive storytelling experience designed to facilitate emotional exploration for children aged 3-5. I spearheaded the technical implementation of the Breathing Module and Entry Page, focusing on creating a scalable architecture through reusable UI components. This approach not only ensured visual consistency across the application but also allowed for the seamless integration of immersive features that support the app's core mission: fostering empathy and enabling meaningful parent-child quality time through play.",
     image: "/assets/Kimo-App-Icon.png",
@@ -145,7 +143,7 @@ const projects = [
       "SwiftUI",
       "UIKit",
       "MVVM Architecture",
-      "Combine", 
+      "Combine",
       "AVFoundation",
       "CoreGraphics",
       "Rive",
@@ -153,7 +151,7 @@ const projects = [
       "Localization",
       "Foundation",
       "SwiftLint",
-      "Jira"
+      "Jira",
     ],
     github: "https://github.com/Lunardy2509/C8S2-ISC-CocoLemon",
     appStore: "https://apps.apple.com/id/app/kimo/id6755032245",
@@ -193,11 +191,7 @@ const projects = [
     image: "/assets/SCARA-5-DOF-Robot-Arm.png",
     previewImg: "/assets/preview/SCARA-5-DOF-1.jpeg",
     previewImg2: "/assets/preview/SCARA-5-DOF-2.jpeg",
-    technologies: [
-      "Servo", 
-      "AccelStepper", 
-      "SoftwareSerial"
-    ],
+    technologies: ["Servo", "AccelStepper", "SoftwareSerial"],
     github: "https://github.com/Lunardy2509/SCARA_5_DOF_Robot",
     appStore: "#",
     videoDemo: "#",
@@ -212,15 +206,11 @@ const projects = [
     image: "assets/IoT-Power-Meter.png",
     previewImg: "/assets/preview/IoT-Power-Meter-1.jpg",
     previewImg2: "/assets/preview/IoT-Power-Meter-2.jpg",
-    technologies: [
-      "ESP8266", 
-      "DHT", 
-      "ACS712", 
-      "PubSubClient"
-    ],
+    technologies: ["ESP8266", "DHT", "ACS712", "PubSubClient"],
     github: "https://github.com/Lunardy2509/IoT-Power-Meter",
     appStore: "#",
-    videoDemo: "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/IoT-Power-Meter-Demo.mp4",
+    videoDemo:
+      "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/IoT-Power-Meter-Demo.mp4",
   },
   {
     id: 8,
@@ -232,14 +222,11 @@ const projects = [
     image: "assets/Arduino-Multimeter.png",
     previewImg: "/assets/preview/arduino-multimeter-1.jpg",
     previewImg2: "/assets/preview/arduino-multimeter-2.jpg",
-    technologies: [
-      "Wire", 
-      "LiquidCrystal", 
-      "ACS712"
-    ],
+    technologies: ["Wire", "LiquidCrystal", "ACS712"],
     github: "https://github.com/Lunardy2509/arduino_multimeter",
     appStore: "#",
-    videoDemo: "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/arduino-multimeter-Demo.mp4",
+    videoDemo:
+      "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/arduino-multimeter-Demo.mp4",
   },
   {
     id: 9,
@@ -254,7 +241,8 @@ const projects = [
     technologies: ["Servo"],
     github: "https://github.com/Lunardy2509/arduino_robot_arm",
     appStore: "#",
-    videoDemo: "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/arduino-robot-arm-Demo.mp4",
+    videoDemo:
+      "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/arduino-robot-arm-Demo.mp4",
   },
 ];
 
