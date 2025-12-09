@@ -61,23 +61,23 @@ export default function About() {
                 University of Science and Technology (NTUST). Having received a
                 Tuition Fee Waiver scholarship, I am excited to deepen my
                 expertise and contribute meaningfully to the field of smart,
-                connected technologies in Taiwan."
+                connected technologies in Taiwan.
               </p>
 
               <div className="flex flex-wrap gap-4 pt-6">
-                <div className="flex items-center bg-blue-50 px-4 py-2 rounded-full">
+                {/* <div className="flex items-center bg-blue-50 px-4 py-2 rounded-full">
                   <Smartphone className="w-5 h-5 text-blue-600 mr-2" />
                   <span className="text-blue-700 font-medium">
                     iOS Development
                   </span>
-                </div>
+                </div> */}
                 <div className="flex items-center bg-purple-50 px-4 py-2 rounded-full">
                   <Code className="w-5 h-5 text-purple-600 mr-2" />
                   <span className="text-purple-700 font-medium">Swift</span>
                 </div>
-                <div className="flex items-center bg-indigo-50 px-4 py-2 rounded-full">
-                  <Globe className="w-5 h-5 text-indigo-600 mr-2" />
-                  <span className="text-indigo-700 font-medium">
+                <div className="flex items-center bg-violet-50 px-4 py-2 rounded-full">
+                  <Globe className="w-5 h-5 text-violet-600 mr-2" />
+                  <span className="text-violet-700 font-medium">
                     Apple Ecosystem
                   </span>
                 </div>

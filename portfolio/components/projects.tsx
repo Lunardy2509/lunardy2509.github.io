@@ -146,7 +146,7 @@ const projects = [
       "Combine",
       "AVFoundation",
       "CoreGraphics",
-      "Rive",
+      "RiveRuntime",
       "Lottie-iOS",
       "Localization",
       "Foundation",
