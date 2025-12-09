@@ -62,11 +62,11 @@ const projects = [
     id: 3,
     title: "Logic Lab Circuit",
     description:
-      "[Side Project] Logic Lab Circuit is an interactive iOS application, now available on the App Store, designed to help early computer engineering learners visualize and understand the core principles of digital logic. The app provides real-time simulations of fundamental logic gates (AND, OR, NOT, XOR) and demonstrates how they combine to perform binary operations in circuits like the Full Adder and Full Subtractor. Future updates will introduce multiplication and division modules to further enhance the learning experience.",
+      "[Solo Project] Logic Lab Circuit is an interactive iOS application, now available on the App Store, designed to help early computer engineering learners visualize and understand the core principles of digital logic. The app provides real-time simulations of fundamental logic gates (AND, OR, NOT, XOR) and demonstrates how they combine to perform binary operations in circuits like the Full Adder and Full Subtractor. Future updates will introduce multiplication and division modules to further enhance the learning experience.",
     contribution:
       "As the solo developer, I created Logic Lab Circuit to bridge the gap between abstract Boolean theory and hands-on circuit intuition. Using SwiftUI, I built a sandbox-style simulation where learners can toggle inputs and observe how binary logic flows through circuits. I managed the entire development lifecycle, from initial concept and UX design to implementation and testing, culminating in the successful launch on the App Store.",
     image: "/assets/LLC-App-Icon.png",
-    previewImg: "/assets/preview/LLC-1g.jpeg",
+    previewImg: "/assets/preview/LLC-1.jpeg",
     previewImg2: "/assets/preview/LLC-2.jpeg",
     technologies: [
       "SwiftUI",
@@ -107,7 +107,7 @@ const projects = [
     id: 4,
     title: "CocoLemon",
     description:
-      "[Industry Skills Project] The primary business goal of this project was to drive user acquisition by designing a proof-of-concept iOS app that simplifies group trip planning. The app, CocoLemon, addresses key user pain points like repetitive questions and disorganized activity selection by providing a collaborative group form and customizable activity packages. Developed within a three-week sprint from July 7 to July 28, 2025 , the solution enables a planner to create a trip, invite contributors, and manage preferences seamlessly. The functional prototype was built using UIKit and CoreData, demonstrating a complete solution aimed at increasing organic downloads and gaining active users.",
+      "[Industry Skills Project] The primary business goal of this project was to drive user acquisition by designing a proof-of-concept iOS app that simplifies group trip planning. The app, CocoLemon, addresses key user pain points like repetitive questions and disorganized activity selection by providing a collaborative group form and customizable activity packages. Developed within a three-week sprint from July 7 to July 28, 2025, the solution enables a planner to create a trip, invite contributors, and manage preferences seamlessly. The functional prototype was built using UIKit and CoreData, demonstrating a complete solution aimed at increasing organic downloads and gaining active users.",
     contribution:
       "As the IC Tech Lead, I guided the technical team through the entire development process, from architecture to final implementation. My responsibilities included managing the project backlog in Jira, establishing coding standards using SwiftLint, and mentoring team members on advanced debugging and Git CLI practices to enhance productivity. I made a key technical decision to integrate SwiftUI with UIKit via a UIHosting Controller to overcome a critical implementation roadblock, ensuring the project was completed on schedule. Additionally, I was responsible for implementing advanced UIKit components and introducing unit testing to validate the application's logic.",
     image: "/assets/CocoLemon-App-Icon.png",
@@ -116,12 +116,12 @@ const projects = [
     technologies: [
       "UIKit",
       "SwiftUI",
-      "Objective-C", 
+      "Objective-C",
+      "Combine",
+      "CoreData",
+      "CloudKit",
       "UIHostingController", 
       "MVC Architecture",
-      "CoreData", 
-      "CloudKit", 
-      "Combine",
       "Foundation",
       "Swift Testing",
       "SwiftLint",
@@ -130,6 +130,34 @@ const projects = [
     github: "https://github.com/Lunardy2509/C8S2-ISC-CocoLemon",
     appStore: "#",
     videoDemo: "https://pub-85d0ec51a60d4cf7af7ca82e669483bf.r2.dev/CocoLemon-Video-Demo.MP4",
+  },
+  {
+    id: 4,
+    title: "Kimo",
+    description:
+      "[Final Project] Kimo is an interactive iPadOS application that helps parents and children explore their feelings together through storytelling and play. Addressing the lack of meaningful parent-child interaction in existing media, Kimo serves as a structured tool for nurturing emotional intelligence in children aged 3-5 utilizing RULER Framework from Yale Center SEL (Social Emotional Learning) Specialists.",
+    contribution:
+      "As a Product Designer and iOS Developer for Kimo, I engineered an interactive storytelling experience designed to facilitate emotional exploration for children aged 3-5. I spearheaded the technical implementation of the Breathing Module and Entry Page, focusing on creating a scalable architecture through reusable UI components. This approach not only ensured visual consistency across the application but also allowed for the seamless integration of immersive features that support the app's core mission: fostering empathy and enabling meaningful parent-child quality time through play.",
+    image: "/assets/Kimo-App-Icon.png",
+    previewImg: "/assets/preview/Kimo-1.png",
+    previewImg2: "/assets/preview/Kimo-2.png",
+    technologies: [
+      "SwiftUI",
+      "UIKit",
+      "MVVM Architecture",
+      "Combine", 
+      "AVFoundation",
+      "CoreGraphics",
+      "Rive",
+      "Lottie-iOS",
+      "Localization",
+      "Foundation",
+      "SwiftLint",
+      "Jira"
+    ],
+    github: "https://github.com/Lunardy2509/C8S2-ISC-CocoLemon",
+    appStore: "https://apps.apple.com/id/app/kimo/id6755032245",
+    videoDemo: "#",
   },
   {
     id: 5,

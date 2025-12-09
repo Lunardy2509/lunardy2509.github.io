@@ -44,22 +44,24 @@ export default function About() {
 
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed text-justify">
-                I’m a junior iOS developer and Computer Engineering graduate
-                with a strong foundation in embedded systems and hands-on
-                hardware development. Currently enrolled at the Apple Developer
-                Academy @BINUS, I specialize in building user-centric
-                applications with Swift while actively exploring the
-                intersection between physical computing and software design.
+                I am a Computer Engineering graduate and Alumni of the Apple
+                Developer Academy @BINUS Tangerang Cohort 8, specializing in
+                building user-centric applications with Swift.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed text-justify">
                 My experiences span from microcontroller-based prototypes to
                 real-time iOS solutions, driven by a deep curiosity to bridge
-                hardware and software into seamless, intelligent systems. I
-                aspire to further this integration through advanced studies in
-                Electronic and Computer Engineering at NTUST, where I aim to
-                deepen my expertise and contribute meaningfully to the field of
-                smart, connected technologies.
+                hardware and software into seamless, intelligent systems.
+              </p>
+
+              <p className="text-lg text-gray-700 leading-relaxed text-justify">
+                I aspire to further this integration through advanced studies in
+                Electronic and Computer Engineering at the National Taiwan
+                University of Science and Technology (NTUST). Having received a
+                Tuition Fee Waiver scholarship, I am excited to deepen my
+                expertise and contribute meaningfully to the field of smart,
+                connected technologies in Taiwan."
               </p>
 
               <div className="flex flex-wrap gap-4 pt-6">
@@ -85,7 +87,6 @@ export default function About() {
                     Hands-on Hardware
                   </span>
                 </div>
-                
               </div>
             </div>
           </div>
