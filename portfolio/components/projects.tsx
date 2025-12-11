@@ -153,7 +153,7 @@ const projects = [
       "SwiftLint",
       "Jira",
     ],
-    github: "https://github.com/Lunardy2509/C8S2-ISC-CocoLemon",
+    github: "https://github.com/Lunardy2509/feelwithkimo-ios",
     appStore: "https://apps.apple.com/id/app/kimo/id6755032245",
     videoDemo: "#",
   },
