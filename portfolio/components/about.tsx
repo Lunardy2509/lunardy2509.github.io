@@ -68,7 +68,7 @@ export default function About() {
               <p className="text-lg text-gray-700 leading-relaxed text-justify">
                 I aspire to further this integration through advanced studies in
                 Electronic and Computer Engineering at the National Taiwan
-                University of Science and Technology (台科大). Having received a
+                University of Science and Technology (台科大), Start in February 2026. Having received a
                 Tuition Fee Waiver scholarship, I am excited to deepen my
                 expertise and contribute meaningfully to the field of smart,
                 connected technologies in Taiwan.
