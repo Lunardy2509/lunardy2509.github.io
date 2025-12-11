@@ -32,21 +32,31 @@ export default function About() {
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="bg-white rounded-3xl p-8 shadow-xl border border-gray-200">
-              <div className="flex items-center justify-center w-full bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl overflow-hidden">
-                <img
-                  src="/assets/Ferdinand-Lunardy.png"
-                  alt="Ferdinand Lunardy"
-                  className="w-full h-full object-contain rounded-2xl shadow-lg"
-                />
+            <div className="space-y-6">
+              <div className="bg-white rounded-3xl p-8 shadow-xl border border-gray-200">
+                <div className="flex items-center justify-center w-full bg-gradient-to-br from-blue-100 to-purple-100 rounded-2xl overflow-hidden">
+                  <img
+                    src="/assets/Ferdinand-Lunardy.png"
+                    alt="Ferdinand Lunardy"
+                    className="w-full h-full object-contain rounded-2xl shadow-lg"
+                  />
+                </div>
+                <div className="flex items-center justify-center mt-6 space-x-4">
+                  <img
+                    src="/assets/AppleTeacherSwiftPlaygrounds-Logo.svg"
+                    alt="Apple Teacher Swift Playgrounds"
+                    className="h-16 w-auto"
+                  />
+                </div>
               </div>
             </div>
 
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed text-justify">
                 I am a Computer Engineering graduate and Alumni of the Apple
-                Developer Academy @BINUS Tangerang Cohort 8, specializing in
-                building user-centric applications with Swift.
+                Developer Academy @BINUS Tangerang Cohort 8, familiar with
+                SwiftUI, UIKit, Combine, MVVM, TCA, Firebase, etc. To build
+                efficient performance, user-centric mobile solutions.
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed text-justify">
@@ -58,7 +68,7 @@ export default function About() {
               <p className="text-lg text-gray-700 leading-relaxed text-justify">
                 I aspire to further this integration through advanced studies in
                 Electronic and Computer Engineering at the National Taiwan
-                University of Science and Technology (NTUST). Having received a
+                University of Science and Technology (台科大). Having received a
                 Tuition Fee Waiver scholarship, I am excited to deepen my
                 expertise and contribute meaningfully to the field of smart,
                 connected technologies in Taiwan.
