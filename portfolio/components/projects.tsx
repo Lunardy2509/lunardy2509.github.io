@@ -13,17 +13,21 @@ const projects = [
     description:
       "[Core Project] BSDGo is a modern iOS application designed to enhance the daily commuting experience for BSD Link users. Inspired by the OneSmile App, BSDGo offers thoughtful enhancements in usability, speed, and convenience tailored specifically to meet the needs of BSD commuters.",
     contribution:
-      "As a Junior iOS Developer on BSDGo, I contributed to building a commuter-focused iOS application designed to enhance the daily transit experience for BSD Link users. The app features an interactive map powered by MapKit and CoreLocation, and a sleek widget using WidgetKit that allows users to quickly view nearby bus stops without launching the full app. Drawing inspiration from the OneSmile app, I helped implement key enhancements in UI responsiveness and route accessibility, integrating SwiftUI and UIKit to deliver a seamless, modern commuter interface.",
+      "As a Junior iOS Developer on BSDGo, I contributed to building a commuter-focused iOS application designed to enhance the daily transit experience for BSD Link users. The app features an interactive map powered by MapKit and CoreLocation, and a sleek widget using WidgetKit that allows users to quickly view nearby bus stops without launching the full app and Live Activity + Notification feature to set alert for upcoming buses. Drawing inspiration from the OneSmile app, I helped implement key enhancements in UI responsiveness, integrating SwiftUI and UIKit to deliver a seamless, modern commuter interface.",
     image: "/assets/BSDGo-App-Icon.png",
     previewImg: "/assets/preview/BSDGo-1.png",
     previewImg2: "/assets/preview/BSDGo-2.png",
     technologies: [
       "SwiftUI",
       "UIKit",
+      "Firebase",
       "MVVM Architecture",
       "CoreLocation",
       "MapKit",
       "WidgetKit",
+      "ActivityKit",
+      "UserNotifications",
+      "Combine",
       "Foundation",
       "SwiftLint",
       "Jira",
