@@ -1,4 +1,4 @@
-// File: /Users/lun/Documents/Apple Developer Academy/lunardy2509.github.io/portfolio/app/layout.tsx
+// File: D:\Portfolio\lunardy2509.github.io\portfolio\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

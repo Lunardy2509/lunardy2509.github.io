@@ -66,12 +66,7 @@ export default function About() {
               </p>
 
               <p className="text-lg text-gray-700 leading-relaxed text-justify">
-                I aspire to further this integration through advanced studies in
-                Electronic and Computer Engineering at the National Taiwan
-                University of Science and Technology (台科大). Having received a
-                Tuition Fee Waiver scholarship, I am excited to deepen my
-                expertise and contribute meaningfully to the field of smart,
-                connected technologies in Taiwan.
+                Currently, I am a Master's student at the National Taiwan University of Science and Technology (台科大), where I am a member of the Low Power Laboratory. Under the guidance of my advising professor, my research is centered on IoT and Low Power systems. In addition to my academic research, I am actively managing an ongoing technical project, further deepening my expertise in smart, connected technologies within Taiwan’s tech ecosystem.
               </p>
 
               <div className="flex flex-wrap gap-4 pt-6">

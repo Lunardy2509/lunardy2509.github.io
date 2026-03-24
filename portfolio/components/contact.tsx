@@ -6,8 +6,8 @@ import { useScrollAnimation } from '../lib/utils';
 function getLocalTimeString() {
   const date = new Date();
   const utc = date.getTime() + date.getTimezoneOffset() * 60000;
-  const jakartaTime = new Date(utc + 7 * 3600000);
-  return jakartaTime.toLocaleTimeString('en-US', {
+  const localTime = new Date(utc + 8 * 3600000);
+  return localTime.toLocaleTimeString('en-US', {
     hour: 'numeric',
     minute: '2-digit',
     second: '2-digit',
@@ -63,7 +63,7 @@ export default function Contact() {
             </p>
             <div className="flex justify-between items-center">
               <p className="text-sm text-gray-500">© 2025 Ferdinand Lunardy</p>
-              {time && <p className="text-sm text-gray-500">{time} Jakarta GMT+7</p>}
+              {time && <p className="text-sm text-gray-500">{time} Taipei GMT+8</p>}
             </div>
           </div>
         </div>
