@@ -62,7 +62,7 @@ export default function Contact() {
               <span className="font-medium text-blue-600">github.io</span>.
             </p>
             <div className="flex justify-between items-center">
-              <p className="text-sm text-gray-500">© 2025 Ferdinand Lunardy</p>
+              <p className="text-sm text-gray-500">© 2026 Ferdinand Lunardy</p>
               {time && <p className="text-sm text-gray-500">{time} Taipei GMT+8</p>}
             </div>
           </div>
